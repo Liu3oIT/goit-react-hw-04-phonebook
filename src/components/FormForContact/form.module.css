@@ -1,0 +1,41 @@
+.containerform {
+  width: 300px;
+  margin: 50px auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+.namecontact {
+  display: block;
+  margin-bottom: 15px;
+  font-weight: bold;
+  font-size: 18px;
+}
+.inputform {
+  margin-top: 8px;
+  max-width: 284px;
+  width: 100%;
+  padding: 8px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+.inputform:focus {
+  outline: none;
+  border-color: #007bff;
+}
+.button_submit_form {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  background-color: #007bff;
+  color: #fff;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+.button_submit_form:hover {
+  background-color: #0056b3;
+}
